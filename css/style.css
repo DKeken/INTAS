@@ -1,0 +1,1510 @@
+@font-face {
+ font-family: "Gilroy";
+ src: url("/fonts/Gilroy-Light.ttf");
+}
+body {
+  padding-top: 56px;
+  width: 100%;
+  height: 100%;
+  font-family: Gilroy;
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+.text34
+{
+  font-family: Gilroy;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+text-align: center;
+}
+.block {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.block > span {
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 20px;
+  color: white;
+ font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.cards{
+  mix-blend-mode: normal;
+border-radius: 2px;
+width: auto;
+}
+.bg-intas
+{
+	background: #FFFFFF !important;
+box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.02) !important;
+}
+.nav-link{
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+color: #999999;
+text-align: left;
+}
+.ques{
+	padding-left: 10px;
+}
+.logo{
+	padding-bottom: 5px;
+}
+.topnav {
+    background-color: #FFFFFF;
+    overflow: hidden;
+
+}
+.topnav a:hover {
+    border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+    border-bottom: 3px solid red;
+}
+.imgheader
+{
+	background: url("/images/ImgHeader.png") no-repeat right top;
+	max-width: 100%;
+	height: 600px;
+	
+    background-size: 100% 80%;
+}
+
+  .navbar ul {
+    text-align: center;
+
+  }
+  .navbar ul li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 10px;
+  }
+  .navbar ul li a {
+    margin-left: 0 !important;
+  }
+.headerp{
+font-size: 24px;
+font-weight: 500;
+line-height: 30px;
+padding-top: 10px;
+text-align: left;
+}
+img.logo{
+	position: relative;
+}
+.be-static
+{
+	position: static;
+}
+  .hero {
+    position: relative;
+   
+    overflow: hidden;
+  }
+
+  .hero-bg {
+    background: linear-gradient(170deg, var(--primary-color) 64%, var(--white-color) 30%);
+  }
+
+  .hero-image {
+    position: relative;
+    top: 0em;
+  }
+@media screen and (max-width: 991px) {
+
+    .hero {
+      padding-top: 2px;
+    }
+
+    .hero-text {
+      bottom: 2em;
+    }
+}
+.media-heading{
+	padding-left: 10px;
+	padding-top: 8px;
+	font-size: 25px;
+line-height: 30px;
+text-align: left;
+}
+
+.jumbotron{
+	background: rgba(255, 255, 255, 0.8);
+box-shadow: 0px 0px 120px rgba(0, 0, 0, 0.15);
+border-radius: 2px;
+
+}
+.card-title{
+	border-left: 3px solid red;
+	padding-left: 10px;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+.card-text{
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.row {
+  margin: 0 -5px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card {
+  padding: 16px;
+  text-align: center;
+  
+}
+
+.text33{
+font-family: Gilroy;
+font-size: 34px;
+font-style: normal;
+font-weight: 600;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom: 40px;
+}
+footer {
+  background: url("/images/bg6.png");
+  color: #aaa;
+  padding-top: 10px;
+}
+.aboutcompany{
+  font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.mycustom-jumbotron {
+ background-size: cover;
+    background-position: 0 50%;
+    width: 570px;
+height: 365px;
+background: rgba(41, 55, 61, 0.6);
+}
+
+p.text-jumbohigh
+{
+  font-family: Gilroy;
+font-size: 37px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+h1.jumbotextlow
+{
+  font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.partners{
+  font-family: Gilroy;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.textfooter{
+  font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+footer .three-column {
+ overflow: hidden;
+}
+
+footer .three-column li{
+ width: 33.3333%;
+  float: left;
+  padding: 5px 0;
+}
+
+
+.text4{
+	font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.text5{
+	font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text6{
+  font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.text7{
+  font-family: Gilroy;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+.block4{
+border-radius: 3px;
+background-repeat: no-repeat;
+height: 382px;
+
+}
+.block8{
+  margin-left: 50px;
+  background: no-repeat;
+}
+.block5{
+border-radius: 3px;
+background-repeat: no-repeat;
+height: 382px;
+margin-left: 200px !important;
+
+}
+.text8{
+font-family: Gilroy;
+font-size: 34px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom: 10px;
+}
+.text9{
+  font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+@media (min-width: 300px) {  
+ .block2{
+  padding-top: 10px !important; 
+  padding-left: 0px;
+}
+.snakeblock{
+   width: 215px;
+  height: 170px;
+  border-radius: 3px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.snaketext1{
+  font-family: Gilroy;
+font-size: 22px;
+font-style: normal;
+font-weight: 800;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 20px;
+padding-bottom: 10px;
+margin-bottom: 0px;
+padding-left: 5px;
+}
+.snaketext2{
+  font-family: Gilroy;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+}
+.snaketext3{
+ font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+padding-top:15px;
+padding-left: 0px;
+}
+.circlesnake{
+ width: 50px;
+ height: 50px;
+ padding-left: 0px;
+ padding-right: 0px;
+
+}
+.text6{
+  font-size: 15px;
+  }
+  .text7{
+  font-size: 15px;
+  line-height: 13px;
+  }
+  .custom1{
+  margin-bottom:200px;
+}
+  .custom{
+  margin-bottom:200px;
+}
+.custom6{
+  margin-bottom:100px;
+}
+.custom2{
+  margin-bottom:150px;
+}
+  .custom4{
+  margin-bottom:120px;
+}
+.custom5{
+  margin-bottom:300px;
+}
+.custom3{
+  margin-bottom:250px;
+}
+.text1{
+  font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.block1{
+  width: 280px;
+  height: 147px;
+  border-radius: 3px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.2));
+
+}
+.slide{
+background:url("/images/bgslidexs.png") center no-repeat;
+background-size:cover;
+width:100%;
+height:100%;
+border: 0px;
+transform: translateX(0px);
+}
+.media-left{
+  width: 50px;
+   height: 50px;
+}
+p.svid{
+  font-family: Gilroy;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: 11px;
+letter-spacing: 0em;
+text-align: left;
+
+padding-top: 30px;
+}
+.card-title{
+  font-family: Gilroy;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+}
+.card-text{
+  font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+.hero-image {
+    position: relative;
+    top: 1em;
+}
+.slideblock{
+  height: 760px !important;
+}
+.ques{
+  width: 40px;
+  height: 40px;
+  padding-left: 0;
+}
+.text1form{
+  font-family: Gilroy;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.text2form{
+  font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 25px;
+}
+.text3form{
+ font-family: Gilroy;
+font-size: 11px;
+font-style: normal;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0em;
+text-align: center;
+
+padding-top: 10px;
+}
+.text4form{
+  font-family: Gilroy;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text1navbar{
+  font-family: Gilroy;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text1imagestext{
+  font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text2imagestext{
+ font-family: Gilroy;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+}
+.headrepictext1{
+  font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+.headerpictext2{
+  font-family: Gilroy;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 6px;
+}
+.headerpictext3{
+  font-family: Gilroy;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: 11px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 50px;
+}
+.headertext2{
+  font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+.headertext3{
+  border-left: 3px solid red;
+  padding-left: 10px;
+font-family: Gilroy;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.headertext4{
+  font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text1minicards{
+  font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text2minicards{
+font-family: Gilroy;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text3minicards{
+ font-family: Gilroy;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text3imagestext{
+ font-family: Gilroy;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text4imagestext{
+  font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text1cards{
+ font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align:center;
+}
+.text4footer{
+font-family: Gilroy;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text1footer{
+ font-family: Gilroy;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text2footer{
+  font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text3footer{
+ font-family: Gilroy;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+}
+}
+@media (min-width: 576px) {  
+ .block2{
+  padding-top: 40px !important; 
+  padding-left: 0px;
+}
+.text7{
+  font-size: 15px;
+  line-height: 15px;
+}
+.text6{
+  font-size: 15px;
+  }
+.custom1{
+  margin-bottom:100px;
+}
+  .custom{
+  margin-bottom:100px;
+}
+}
+
+@media (min-width: 768px) {  
+ .block2{
+  padding-top: 40px !important; 
+}
+.text7{
+  font-size: 15px;
+  line-height: 15px;
+}
+.custom1{
+  margin-bottom:100px;
+}
+  .custom{
+  margin-bottom:100px;
+}
+.text1{
+  font-family: Gilroy;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+}
+.media-left{
+  width: 50px;
+   height: 50px;
+} 
+.block2{
+  padding-top: 0px !important;
+ padding-left: 0px !important;
+}
+.text1form{
+  font-family: Gilroy;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.text2form{
+  font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 25px;
+}
+.text3form{
+ font-family: Gilroy;
+font-size: 11px;
+font-style: normal;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0em;
+text-align: center;
+
+padding-top: 10px;
+}
+.text4form{
+  font-family: Gilroy;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text1navbar{
+  font-family: Gilroy;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text1imagestext{
+  font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text2imagestext{
+ font-family: Gilroy;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+}
+.headrepictext1{
+font-family: Gilroy;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+}
+.headerpictext2{
+ font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+}
+.headerpictext3{
+ font-family: Gilroy;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: 11px;
+letter-spacing: 0em;
+text-align: left;
+
+padding-top: 50px;
+}
+.headertext2{
+  font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+.headertext3{
+  border-left: 3px solid red;
+  padding-left: 10px;
+font-family: Gilroy;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0em;
+text-align: left;
+}
+.custom6 {
+    margin-bottom: 200px;
+}
+.custom2 {
+    margin-bottom: 150px;
+}
+.slide{
+background:url("/images/slide2.png") center no-repeat;
+background-size:cover;
+width:100%;
+height: 100%;
+border:none;
+}
+.headertext4{
+  font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text1minicards{
+  font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text2minicards{
+
+font-family: Gilroy;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text3minicards{
+ font-family: Gilroy;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text3imagestext{
+ font-family: Gilroy;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text4imagestext{
+  font-family: Gilroy;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text1cards{
+ font-family: Gilroy;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+}
+.text4footer{
+font-family: Gilroy;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text1footer{
+ font-family: Gilroy;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text2footer{
+  font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text3footer{
+ font-family: Gilroy;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+}
+ 
+
+@media (min-width: 992px) { 
+ .block2{
+  padding-top: 0px !important;
+ padding-left: 0px !important;
+}
+.snakeblock {
+    width: 387px;
+    height: 300px;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.text7{
+  font-size: 15px;
+  line-height: 15px;
+}
+.custom1{
+  margin-bottom:100px;
+}
+  .custom{
+  margin-bottom:100px;
+}
+.slide{
+background:url("/images/slide.png") center no-repeat;
+background-size:cover;
+width:100%;
+height:100%;
+border: 0px;
+}
+.block1{
+  width: 760px;
+  height: 382px;
+  border-radius: 3px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.2));
+}
+.media-left{
+  width: 80px;
+   height: 80px;
+}
+}
+
+@media (min-width: 1200px)  {  
+    .block2{
+  padding-top: 0px !important;
+ padding-left: 0px !important;
+}
+.blocksnakexl1{
+  padding-top: 20px !important;
+ padding-left: 50px !important;
+}
+.blockimages{
+  padding-top: 30px !important; 
+  padding-left: 50px !important
+}
+ .block3{
+  padding-top: 20px !important;
+ padding-left: 0px !important;
+ padding-right: 20px !important;
+}
+.slideblock{
+  height: 900px !important;
+}
+.snake{
+  background: url("/images/snake.png") no-repeat;
+  width: 1200px;
+  height: 2000px;
+  margin-top: 150px;
+  position: absolute;
+}
+.snakeblock {
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 50px !important;
+    margin-top: 30px !important;
+}
+.snakeblock2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 50px !important;
+    margin-bottom: 50px !important;
+}
+.snaketext1{
+  font-family: Gilroy;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+}
+.snakepadding{
+  margin-left: 170px !important; 
+  margin-bottom: 50px !important;"
+}
+.snaketext3{
+  font-family: Gilroy;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+}
+.snaketext2{
+  font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.text7{
+  font-size: 20px;
+  line-height: 24px;
+}
+.text6 {
+    font-size: 18px;
+     line-height: 22px;
+}
+.custom1{
+  margin-bottom:100px;
+}
+.custom{
+  margin-bottom:100px;
+}
+.custom8{
+  margin-bottom:100px;
+}
+
+.text1form{
+  font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 30px;
+}
+.text2form{
+  font-family: Gilroy;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 45px;
+}
+.text3form{
+  font-family: Gilroy;
+font-size: 12px;
+font-style: normal;
+font-weight: 200;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 10px;
+}
+.text4form{
+  font-family: Gilroy;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text1navbar{
+  font-family: Gilroy;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text1imagestext{
+  font-family: Gilroy;
+font-size: 34px;
+font-style: normal;
+font-weight: 600;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text2imagestext{
+  font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+.headrepictext1{
+  font-family: Gilroy;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.headerpictext2{
+  font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+}
+.headerpictext3{
+  font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 50px; 
+}
+.headertext2{
+  font-family: Gilroy;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 10px;
+padding-left: 10px;
+}
+.headertext3{
+  border-left: 3px solid red;
+  padding-left: 10px;
+  font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+.headertext4{
+  font-family: Gilroy;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text1minicards{
+  font-family: Gilroy;
+font-size: 34px;
+font-style: normal;
+font-weight: 600;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text2minicards{
+font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text3minicards{
+ font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text3imagestext{
+  font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text4imagestext{
+  font-family: Gilroy;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text1cards{
+ font-family: Gilroy;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 106px;
+}
+.text4footer{
+font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text1footer{
+  font-family: Gilroy;
+font-size: 37px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+.text2footer{
+  font-family: Gilroy;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.text3footer{
+  font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+}
+.card-grid{
+  display: grid;
+  grid-template-columns: 62px auto;
+  grid-template-rows: 62px;
+  grid-gap: 0.5em;
+}
+.card-grid-img img{
+  max-width: 200px;
+  height: 100%;
+  display: block;
+  width: auto;
+}
+.card-grid-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+@media (min-width: 576px) {  
+ .card-title{
+  font-size: 15px;
+  line-height: 12px;
+}
+}
+.formheader{
+  background: #3CAD68;
+}
+.textform{
+  font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.textbtnform{
+font-family: Gilroy;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 45px;
+
+}
+
+
+    <div class="container">
+      
+       <h3 class="text3">Этапность внедрения</h3>
+          <div class="row ">
+            <div class="col-12 col-lg-4 ml-5 block4 img-fluid " style="background-image: url('/images/image 68.png');">
+            </div>
+            <div class="col-lg-7  ml-auto block2  ">
+              <h2 class="mb-3 text8 text-black">Планирование</h2>
+              <p class=" text9">Формирование геолого-технологических мероприятий в части текущего и капитального ремонтов скважин</p>
+              <p class="text10">Создание План-графика движения бригад, хранение электронных план-заказов и планов работ, встроенная система электронного документооборота с гибкой настраиваемой моделью бизнес-процессов компании</p>
+            </div>
+
+          </div>
+        </div>      
+      
+<div class="block__73694">
+        <div class="container">
+          <div class="row d-flex no-gutters align-items-stretch">
+            <div class="col-12 col-lg-4 block5 img-fluid" style="background-image: url('/images/image 69.png');">
+            </div>
+            <div class="col-lg-5 block2">
+              <h2 class="mb-3 text8 text-black">Планирование</h2>
+              <p class=" text9">Формирование геолого-технологических мероприятий в части текущего и капитального ремонтов скважин</p>
+              <p class="text10">Создание План-графика движения бригад, хранение электронных план-заказов и планов работ, встроенная система электронного документооборота с гибкой настраиваемой моделью бизнес-процессов компании</p>
+            </div>
+          </div>
+        </div>      
+      </div>
+    </div>
+    <div class="site-section">
+      <div class="block__73694">
+        <div class="container">
+          <div class="row ">
+            <div class="col-12 col-lg-4 block8 img-fluid" style="background-image: url('/images/image 72.png');">
+            </div>
+            <div class="col-lg-7 mb-5 block2  ">
+              <h2 class="mb-3 text8 text-black">Планирование</h2>
+              <p class=" text9">Формирование геолого-технологических мероприятий в части текущего и капитального ремонтов скважин</p>
+              <p class="text10">Создание План-графика движения бригад, хранение электронных план-заказов и планов работ, встроенная система электронного документооборота с гибкой настраиваемой моделью бизнес-процессов компании</p>
+            </div>
+
+          </div>
+        </div>     
+      </div>
+<div class="block__73694 mt-5">
+         <div class="container">
+          <div class="row d-flex no-gutters align-items-stretch">
+            <div class="col-12 col-lg-4 block5 img-fluid" style="background-image: url('/images/image 69.png');">
+            </div>
+            <div class="col-lg-5 block2">
+              <h2 class="mb-3 text8 text-black">Планирование</h2>
+              <p class=" text9">Формирование геолого-технологических мероприятий в части текущего и капитального ремонтов скважин</p>
+              <p class="text10">Создание План-графика движения бригад, хранение электронных план-заказов и планов работ, встроенная система электронного документооборота с гибкой настраиваемой моделью бизнес-процессов компании</p>
+            </div>
+          </div>
+        </div>      
+    </div>
+<div class="block__73694">
+        <div class="container">
+          <div class="row ">
+            <div class="col-12 col-lg-4 block8 img-fluid" style="background-image: url('/images/image 72.png');">
+            </div>
+            <div class="col-lg-7 mb-5 block2  ">
+              <h2 class="mb-3 text8 text-black">Планирование</h2>
+              <p class=" text9">Формирование геолого-технологических мероприятий в части текущего и капитального ремонтов скважин</p>
+              <p class="text10">Создание План-графика движения бригад, хранение электронных план-заказов и планов работ, встроенная система электронного документооборота с гибкой настраиваемой моделью бизнес-процессов компании</p>
+            </div>
+
+          </div>
+        </div>     
+      </div>
+    </div>
