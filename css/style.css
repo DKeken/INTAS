@@ -1031,12 +1031,34 @@ text-align: left;
   padding-top: 0px !important;
  padding-left: 0px !important;
 }
+.blockimages{
+  padding-top: 30px !important; 
+  padding-left: 50px !important
+}
+.snaketext3 {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 0px;
+}
 .snakeblock {
     width: 387px;
     height: 300px;
     border-radius: 3px;
     background-repeat: no-repeat;
     background-size: contain;
+}
+.circlesnake{
+ width: 10px;
+ height: 100%;
+ padding-left: 0px;
+ padding-right: 0px;
+
 }
 .text7{
   font-size: 15px;
