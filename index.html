@@ -450,25 +450,26 @@
                         <h3 class="text1form col-lg-9 col-11">Остались вопросы или заинтересовало наше предложение? Заполните форму ниже, мы обязательно с Вами свяжемся.</h3>
                         <div class="card-body pb-lg-0 p-0">
 
-                            <form class="contact__form" method="post" action="mail.php">  
+                            <form class="contact__form" id="contactForm">  
                                 <div class="row">
                                     <div class="col-md-6 form-group">
-                                        <input name="name" type="text" class="form-control" placeholder="Ваше Имя" required>
+                                        <input id="name" type="text" class="form-control" placeholder="Ваше Имя" required>
                                     </div>
                                     <div class="col-md-6 form-group">
-                                        <input name="email" type="email" class="form-control" placeholder="E-mail" required>
+                                        <input id="email" type="email" class="form-control" placeholder="E-mail" required>
                                     </div>
                                     <div class="col-md-6 form-group">
-                                        <input name="phone" type="text" class="form-control" placeholder="Телефон" required>
+                                        <input id="phone" type="text" class="form-control" placeholder="Телефон" required>
                                     </div>
                                     
                                     <div class="col-12 form-group">
-                                        <textarea name="message" class="form-control" rows="3" placeholder="Комментарий" required></textarea>
+                                        <textarea id="message" class="form-control" rows="3" placeholder="Комментарий" required></textarea>
                                     </div>
                                     <div class="col-12 col-lg-1">
                                         <input name="submit" type="submit" class="btn text-white text4form " style="background: #29373D; border-radius: 20px;" value="Отправить">
                                     </div>
-                                    <p class="text3form pl-3 col-12 p-0 pt-2" >Нажимая на кнопку вы соглашаетесь с <u>политикой конфиденциальности</u></p>
+                                    <p class="text3form pl-3 col-12 p-0 pt-2" id="form-submit" >Нажимая на кнопку вы соглашаетесь с <u>политикой конфиденциальности</u></p>
+                                    <div id="msgSubmit" class="h3 text-center d-none ">Message Submitted!</div>
                                 </div>
                               
                             </form>
@@ -525,14 +526,14 @@
     </div>
   </div>
 </footer>
-
-<script type="text/javascript">
-  $('body').scrollspy({target: ".navbar"})
-</script>
-  <script src="main.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="main.js" ></script>
+<script type="text/javascript">
+  $('body').scrollspy({target: ".navbar"})
+
+</script>
 </body>
 
 </html>
