@@ -931,7 +931,7 @@ text-align: left;
     margin-bottom: 150px;
 }
 .slide{
-background:url("/images/Slide2.png") center no-repeat;
+background:url("/images/slide2.png") center no-repeat;
 background-size:cover;
 width:100%;
 height: 100%;
@@ -1086,7 +1086,7 @@ text-align: left;
   margin-bottom:100px;
 }
 .slide{
-background:url("/images/Slide.png") center no-repeat;
+background:url("/images/slide.png") center no-repeat;
 background-size:cover;
 width:100%;
 height:100%;
