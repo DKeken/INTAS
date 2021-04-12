@@ -378,6 +378,9 @@ text-align: left;
   padding-top: 10px !important; 
   padding-left: 0px;
 }
+.custom8{
+  margin-bottom:100px;
+}
 .snakeblock{
    width: 215px;
   height: 170px;
@@ -1102,12 +1105,35 @@ border: 0px;
    height: 80px;
 }
 }
+.scrollToTop{
+    width:75px; 
+    height:75px;
+    padding:10px; 
+    text-align:center; 
+    text-decoration: none;
+    position:fixed;
+    top:50vh;
+    right:0px;
+    opacity:0.5;
+    display:none;
+    background: url('/images/arrow.png') no-repeat 0px 0px ;
+    background-size: 75px 75px;
+    -webkit-transition: all 0.3s; 
+    transition: all 0.3s;
+ }
 
+ .scrollToTop:hover{
+    text-decoration:none;
+    
+    -webkit-transition: all 0.3s; 
+    transition: all 0.3s;
+ }
 @media (min-width: 1200px)  {  
     .block2{
   padding-top: 0px !important;
  padding-left: 0px !important;
 }
+
 .blocksnakexl1{
   padding-top: 20px !important;
  padding-left: 50px !important;

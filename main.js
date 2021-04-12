@@ -1,10 +1,10 @@
 $("#contactForm").submit(function(event){
-    // cancels the form submission
+
     event.preventDefault();
     submitForm();
 });
 function submitForm(){
-    // Initiate Variables With Form Content
+   
     var name = $("#name").val();
     var phone = $("#phone").val();
     var email = $("#email").val();
