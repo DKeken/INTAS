@@ -1,10 +1,10 @@
 @font-face {
  font-family: "Gilroy-Bold";
- src: url("/fonts/gilroy-bold.ttf");
+ src: url("gilroy-bold.ttf");
 }
 @font-face {
  font-family: "Gilroy";
- src: url("/fonts/Gilroy-Light.ttf");
+ src: url("Gilroy-Light.ttf");
  }
 body {
   padding-top: 56px;
@@ -445,7 +445,7 @@ box-shadow: 0px 0px 120px rgba(0, 0, 0, 0.15);
 border-radius: 2px;
 }
 .custom8{
-  margin-bottom:150px;
+  margin-bottom:100px;
 }
 .card-form{
   background-color: #ffffff !important;
@@ -859,7 +859,6 @@ text-align: left;
 .fourcardssize{
 border-radius: 2px;
 }
-
 .fourcardstext1{
 font-family: Gilroy;
 font-size: 18px;
@@ -1189,38 +1188,13 @@ line-height: 15px;
 letter-spacing: 0em;
 text-align: left;
 }
-.paddingiconcards{
-  padding-left: 90px !important;
-}
-.paddingiconcards1{
-  padding-left: 85px !important;
-}
-.paddingiconcards2{
-  padding-left: 90px !important;
-}
-.custom8 {
-    margin-bottom: 150px;
-}
+
 }
 
 @media (min-width: 992px) { 
  .block2{
   padding-top: 0px !important;
  padding-left: 0px !important;
-}
-
-.fourcardssize{
-border-radius: 2px;
-height: 360px;
-}
-.paddingiconcards{
-  padding-left: 40px !important;
-}
-.paddingiconcards1{
-  padding-left: 60px !important;
-}
-.paddingiconcards2{
-  padding-left: 110px !important;
 }
 .slidetext1{
   font-family: Gilroy;
@@ -1312,22 +1286,23 @@ border: 0px;
 }
 }
 
-.scrollToTop {
-    width: 75px;
-    height: 75px;
-    padding: 50px;
-    text-align: center;
+.scrollToTop{
+    width:75px; 
+    height:75px;
+    padding:10px; 
+    text-align:center; 
     text-decoration: none;
-    position: fixed;
-    top: 88vh;
-    right: 0px;
-    opacity: 0.8;
-    display: none;
-    background: url('/images/arrow.png') no-repeat 0px 0px;
+    position:fixed;
+    top:90vh;
+    right:0px;
+    opacity:0.5;
+    display:none;
+    background: url('/images/arrow.png') no-repeat 0px 0px ;
     background-size: 75px 75px;
-    -webkit-transition: all 0.3s;
+    -webkit-transition: all 0.3s; 
     transition: all 0.3s;
-}
+ }
+
  .scrollToTop:hover{
     text-decoration:none;
     
@@ -1341,12 +1316,6 @@ border: 0px;
   padding-top: 0px !important;
  padding-left: 0px !important;
 }
-.containermenu{            
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  position: absolute;
-}
 .fourcardssize{
 border-radius: 2px;
 height: 440px;
@@ -1354,15 +1323,6 @@ height: 440px;
 .paddingfourcards{
   padding-left: 5px !important;
 padding-top: 12px !important;
-}
-.paddingiconcards{
-  padding-left: 40px !important;
-}
-.paddingiconcards1{
-  padding-left: 90px !important;
-}
-.paddingiconcards2{
-  padding-left: 100px !important;
 }
 .fourcardstext1{
 font-family: Gilroy;
@@ -1386,7 +1346,7 @@ text-align: left;
 }
 .fourcardstext3{
   font-family: Gilroy;
-font-size: 80px;
+font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: 37px;
@@ -1433,13 +1393,12 @@ letter-spacing: 0em;
 text-align: center;
 
 }
-
 .nav-link{
   font-family: Gilroy;
 font-size: 10px;
 font-style: normal;
 font-weight: 600;
-line-height: 15px;
+line-height: 10px;
 letter-spacing: 0em;
 text-align: left;
 
@@ -1689,7 +1648,7 @@ text-align: left;
 }
 .text3minicards{
  font-family: Gilroy;
-font-size: 18px;
+font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 22px;
