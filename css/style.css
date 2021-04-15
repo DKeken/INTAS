@@ -1315,11 +1315,11 @@ border: 0px;
 .scrollToTop {
     width: 75px;
     height: 75px;
-    padding: 50px;
+    padding: 5px;
     text-align: center;
     text-decoration: none;
     position: fixed;
-    top: 88vh;
+    top: 87vh;
     right: 0px;
     opacity: 0.8;
     display: none;
