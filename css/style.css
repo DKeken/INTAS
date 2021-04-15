@@ -1248,7 +1248,7 @@ text-align: left;
 }
 .nav-link{
   font-family: Gilroy;
-font-size: 9px;
+font-size: 10px;
 font-style: normal;
 font-weight: 600;
 line-height: 10px;
@@ -1436,13 +1436,13 @@ text-align: center;
 
 .nav-link{
   font-family: Gilroy;
-font-size: 10px;
+font-size: 12px;
 font-style: normal;
 font-weight: 600;
 line-height: 15px;
 letter-spacing: 0em;
 text-align: left;
-
+white-space: pre;
 }
 
 .navpadding{
