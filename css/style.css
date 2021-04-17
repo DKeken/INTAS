@@ -380,8 +380,64 @@ text-align: left;
   padding-top: 10px !important; 
   padding-left: 0px;
 }
+.headerfourblock{
+
+}
 .fourcardssize{
 border-radius: 2px;
+}
+.navbar-nav {
+    background-color: #66777E !important;
+    overflow: hidden;
+}
+
+.navbar{
+  padding-left: 0px; 
+  padding-right: 0px; 
+}
+.navbar-toggler,
+.navbar-toggler:hover,
+.navbar-toggler:active,
+.navbar-toggler:focus
+{
+  border: none;
+  outline: none;
+}
+.navbar-menu-lasttext{
+  color: #FFFFFF66 !important;
+   font-family: Gilroy;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 0px;
+}
+.topnav{
+  background-color: #66777E !important;
+}
+.collapsing{
+  background-color: #66777E !important;
+}
+.row-full{
+ width: 98vw;
+ 
+}
+.shadowform{
+  -webkit-box-shadow: 0px 17px 8px 0px rgba(0, 0, 0, 0.2) inset;
+-moz-box-shadow: 0px 17px 8px 0px rgba(0, 0, 0, 0.2) inset;
+box-shadow: 0px 17px 8px 0px rgba(0, 0, 0, 0.2) inset;
+}
+.nav-link{
+  font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 10px;
+letter-spacing: 0em;
+text-align: center;
+color: #ffffff !important;
 }
 .fourcardstext1{
 font-family: Gilroy;
@@ -404,7 +460,7 @@ text-align: left;
 }
 .fourcardstext3{
   font-family: Gilroy-Bold;
-font-size: 50px;
+font-size: 61px;
 font-style: normal;
 font-weight: 700;
 line-height: 37px;
@@ -412,18 +468,17 @@ letter-spacing: 0em;
 text-align: left;
 }
 .fourcardstext4{
- font-family: Gilroy;
-font-size: 12px;
+font-family: Gilroy;
+font-size: 16px;
 font-style: normal;
-font-weight: 600;
-line-height: 18px;
+font-weight: 400;
+line-height: 15px;
 letter-spacing: 0em;
 text-align: left;
-
 }
 .fourcardstext5{
   font-family: Gilroy;
-font-size: 10px;
+font-size: 13px;
 font-style: normal;
 font-weight: 400;
 line-height: 15px;
@@ -432,7 +487,7 @@ text-align: left;
 }
 .fourcardstext6{
  font-family: Gilroy;
-font-size: 20px;
+font-size: 22px;
 font-style: normal;
 font-weight: 600;
 line-height: 22px;
@@ -445,19 +500,30 @@ box-shadow: 0px 0px 120px rgba(0, 0, 0, 0.15);
 border-radius: 2px;
 }
 .custom8{
-  margin-bottom:150px;
+  margin-bottom:30px;
 }
 .card-form{
-  background-color: #ffffff !important;
+  background-color: #F2F6F9 !important;
 }
 .slidetext1{
   font-family: Gilroy;
-font-size: 20px;
+font-size: 22px;
 font-style: normal;
 font-weight: 600;
 line-height: 22px;
 letter-spacing: 0em;
 text-align: center;
+padding-top: 0px;
+}
+.slidetext2{
+font-family: Gilroy;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: center;
+
 }
 .formpadding{
  padding-top: 5rem;
@@ -469,6 +535,7 @@ text-align: center;
   border-radius: 3px;
   background-repeat: no-repeat;
   background-size: contain;
+
 }
 .snaketext1{
   font-family: Gilroy;
@@ -605,6 +672,7 @@ text-align: left;
 }
 .slideblock{
   height: 760px !important;
+
 }
 .ques{
   width: 40px;
@@ -615,10 +683,11 @@ text-align: left;
   font-family: Gilroy;
 font-size: 13px;
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 line-height: 15px;
 letter-spacing: 0em;
 text-align: left;
+
 padding-left: 30px;
 }
 .text2form{
@@ -631,16 +700,15 @@ letter-spacing: 0em;
 text-align: left;
 padding-left: 25px;
 }
-  {
- font-family: Gilroy;
+.text3form{
+  font-family: Gilroy;
 font-size: 11px;
 font-style: normal;
 font-weight: 500;
 line-height: 13px;
 letter-spacing: 0em;
-text-align: left;
+text-align: center;
 
-padding-top: 10px;
 }
 .text4form{
   font-family: Gilroy;
@@ -649,7 +717,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 22px;
 letter-spacing: 0em;
-text-align: left;
+text-align: center;
 }
 .text1navbar{
   font-family: Gilroy;
@@ -665,7 +733,7 @@ text-align: left;
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
-line-height: 36px;
+line-height: 20px;
 letter-spacing: 0em;
 text-align: left;
 }
@@ -677,6 +745,7 @@ font-weight: 600;
 line-height: 17px;
 letter-spacing: 0em;
 text-align: left;
+padding-top: 10px !important;
 }
 .headrepictext1{
   font-family: Gilroy;
@@ -709,62 +778,63 @@ padding-top: 50px;
 }
 .headertext2{
   font-family: Gilroy;
-font-size: 18px;
+font-size: 13px;
 font-style: normal;
 font-weight: 600;
 line-height: 26px;
 letter-spacing: 0em;
 text-align: left;
-padding-top: 10px;
+
+padding-top: 0px;
 padding-left: 15px;
 }
+
 .headertext3{
   border-left: 3px solid red;
   padding-left: 10px;
 font-family: Gilroy;
-font-size: 18px;
+font-size: 11px;
 font-style: normal;
 font-weight: 500;
-line-height: 20px;
+line-height: 15px;
 letter-spacing: 0em;
 text-align: left;
 
 }
-.headertext4{
-  font-family: Gilroy;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
+.headertext4 {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
 }
-.text1minicards{
-  font-family: Gilroy;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 42px;
-letter-spacing: 0em;
-text-align: left;
+.text1minicards {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
 }
-.text2minicards{
-font-family: Gilroy;
-font-size: 15px;
-font-style: normal;
-font-weight: 600;
-line-height: 18px;
-letter-spacing: 0em;
-text-align: left;
+.text2minicards {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
 }
-.text3minicards{
- font-family: Gilroy;
-font-size: 13px;
-font-style: normal;
-font-weight: 400;
-line-height: 15px;
-letter-spacing: 0em;
-text-align: left;
+.text3minicards {
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 .text3imagestext{
  font-family: Gilroy;
@@ -859,7 +929,14 @@ text-align: left;
 .fourcardssize{
 border-radius: 2px;
 }
-
+.card-form{
+  background-color: #FFFFFF !important;
+}
+.shadowform{
+  -webkit-box-shadow: 0px 17px 8px 0px rgba(0, 0, 0, 0.2) inset;
+-moz-box-shadow: 0px 17px 8px 0px rgba(0, 0, 0, 0.2) inset;
+box-shadow: 0px 17px 8px 0px rgba(0, 0, 0, 0.2) inset;  
+}
 .fourcardstext1{
 font-family: Gilroy;
 font-size: 18px;
@@ -1011,7 +1088,7 @@ text-align: left;
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
-line-height: 36px;
+line-height: 20px;
 letter-spacing: 0em;
 text-align: left;
 }
@@ -1055,12 +1132,13 @@ padding-top: 50px;
 }
 .headertext2{
 font-family: Gilroy;
-font-size: 26px;
+font-size: 14px;
 font-style: normal;
 font-weight: 600;
-line-height: 25px;
+line-height: 26px;
 letter-spacing: 0em;
 text-align: left;
+
 
 padding-top: 10px;
 padding-left: 15px;
@@ -1069,12 +1147,13 @@ padding-left: 15px;
   border-left: 3px solid red;
   padding-left: 10px;
 font-family: Gilroy;
-font-size:  20px;
+font-size: 12px;
 font-style: normal;
 font-weight: 500;
-line-height: 20px;
+line-height: 14px;
 letter-spacing: 0em;
 text-align: left;
+
 }
 .custom6 {
     margin-bottom: 200px;
@@ -1087,7 +1166,9 @@ background:url("/images/slide2.png") center no-repeat;
 background-size:cover;
 width:100%;
 height: 100%;
-border:none;
+-webkit-box-shadow: 0px -21px 33px -5px rgba(0, 0, 0, 0.1) inset;
+-moz-box-shadow: 0px -21px 33px -5px rgba(0, 0, 0, 0.1) inset;
+box-shadow: 0px -21px 33px -5px rgba(0, 0, 0, 0.1) inset;
 }
 .headertext4{
   font-family: Gilroy;
@@ -1199,7 +1280,7 @@ text-align: left;
   padding-left: 90px !important;
 }
 .custom8 {
-    margin-bottom: 150px;
+    margin-bottom: 120px !important;
 }
 }
 
@@ -1207,6 +1288,25 @@ text-align: left;
  .block2{
   padding-top: 0px !important;
  padding-left: 0px !important;
+}
+.navbar-nav {
+    background-color: #ffffff !important;
+}
+.topnav{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  background-color: #ffffff !important; 
+}
+.nav-link{
+  font-family: Gilroy;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+white-space: pre;
+color: #999999 !important;
 }
 
 .fourcardssize{
@@ -1229,7 +1329,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 22px;
 letter-spacing: 0em;
-text-align: center;
+text-align: left;
 }
 .blockimages{
   padding-top: 30px !important; 
@@ -1297,6 +1397,12 @@ background-size:cover;
 width:100%;
 height:100%;
 border: 0px;
+-webkit-box-shadow: 0px -21px 33px -5px rgba(0, 0, 0, 0.1) inset;
+-moz-box-shadow: 0px -21px 33px -5px rgba(0, 0, 0, 0.1) inset;
+box-shadow: 0px -21px 33px -5px rgba(0, 0, 0, 0.1) inset;
+}
+.slideshadow{
+  background: linear-gradient(180deg, #E6E6E6 0%, #FFFFFF 100%);
 }
 .block1{
   width: 760px;
@@ -1340,6 +1446,15 @@ border: 0px;
     .block2{
   padding-top: 0px !important;
  padding-left: 0px !important;
+}
+.paddingsnakefourblock {
+    padding-top: 30px !important;
+    padding-right: 30px !important;
+}
+.navbar-nav {
+    background-color: #ffffff !important;
+    overflow: hidden;
+
 }
 .containermenu{            
   top: 50%;
@@ -1421,7 +1536,7 @@ font-weight: 600;
 line-height: 53px;
 letter-spacing: 0em;
 text-align: left;
-
+padding-top: 48px;
 }
 .slidetext1{
   font-family: Gilroy;
@@ -1430,19 +1545,22 @@ font-style: normal;
 font-weight: 600;
 line-height: 48px;
 letter-spacing: 0em;
-text-align: center;
+text-align: left;
 
 }
-
+.topnav{
+  background-color: #ffffff !important; 
+}
 .nav-link{
   font-family: Gilroy;
-font-size: 12px;
+font-size: 14px;
 font-style: normal;
 font-weight: 600;
 line-height: 15px;
 letter-spacing: 0em;
 text-align: left;
 white-space: pre;
+color: #999999 !important;
 }
 
 .navpadding{
@@ -1503,8 +1621,9 @@ letter-spacing: 0em;
 text-align: left;
 }
 .snakepadding{
-  margin-left: 140px !important; 
-  margin-bottom: 50px !important;"
+  margin-left: 120px !important; 
+  margin-bottom: 50px !important;
+
 }
 .snaketext3{
   font-family: Gilroy;
@@ -1596,7 +1715,7 @@ text-align: left;
 font-size: 34px;
 font-style: normal;
 font-weight: 600;
-line-height: 34px;
+line-height: 30px;
 letter-spacing: 0em;
 text-align: left;
 }
@@ -1713,6 +1832,7 @@ font-weight: 600;
 line-height: 48px;
 letter-spacing: 0em;
 text-align: left;
+padding-top: 24px !important;
 }
 .text1cards{
  font-family: Gilroy;
