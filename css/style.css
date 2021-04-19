@@ -380,9 +380,6 @@ text-align: left;
   padding-top: 10px !important; 
   padding-left: 0px;
 }
-.headerfourblock{
-
-}
 .fourcardssize{
 border-radius: 2px;
 }
@@ -425,8 +422,41 @@ letter-spacing: 0em;
 text-align: center;
 margin-bottom: 0px;
 }
-.topnav{
-  background-color: #66777E !important;
+.nav-item{
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+.topnavbg{
+  background-color: #66777E ;
+}
+.topnavh li.active {
+    background: #ffffff !important;
+}
+.headertext3xs{
+    border-left: 3px solid red;
+    padding-left: 10px;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.headertext2xs{
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+.nav-item.active a {
+  color: red !important;
+  text-decoration: none;
 }
 .collapsing{
   background-color: #66777E !important;
@@ -437,7 +467,7 @@ margin-bottom: 0px;
 -moz-box-shadow: 0px 17px 8px 0px rgba(0, 0, 0, 0.2) inset;
 box-shadow: 0px 17px 8px 0px rgba(0, 0, 0, 0.2) inset;
 }
-.nav-link{
+.nav-linkxs{
   font-family: Gilroy;
 font-size: 18px;
 font-style: normal;
@@ -447,6 +477,7 @@ letter-spacing: 0em;
 text-align: center;
 color: #ffffff !important;
 }
+
 .fourcardstext1{
 font-family: Gilroy;
 font-size: 12px;
@@ -774,12 +805,6 @@ letter-spacing: 0em;
 text-align: left;
 padding-top: 6px;
 }
-
-hr {
- width: 400% !important;
-  margin-left: -5%;
-  
-}
 .row-full{
   width: 99.7vw;
 }
@@ -941,7 +966,30 @@ text-align: left;
   margin-bottom:100px;
 }
 }
-
+@media (min-width: 371px){
+  .headertext3xs{
+    border-left: 3px solid red;
+    padding-left: 10px;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.headertext2xs{
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+}
 @media (min-width: 768px) {  
  .block2{
   padding-top: 40px !important; 
@@ -1474,6 +1522,10 @@ box-shadow: 0px -21px 33px -5px rgba(0, 0, 0, 0.1) inset;
   padding-top: 0px !important;
  padding-left: 0px !important;
 }
+.nav-item {
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+}
 .paddingsnakefourblock {
     padding-top: 30px !important;
     padding-right: 30px !important;
@@ -1957,75 +2009,3 @@ padding-left: 45px;
 }
 
 
-    <div class="container">
-      
-       <h3 class="text3">Этапность внедрения</h3>
-          <div class="row ">
-            <div class="col-12 col-lg-4 ml-5 block4 img-fluid " style="background-image: url('/images/image 68.png');">
-            </div>
-            <div class="col-lg-7  ml-auto block2  ">
-              <h2 class="mb-3 text8 text-black">Планирование</h2>
-              <p class=" text9">Формирование геолого-технологических мероприятий в части текущего и капитального ремонтов скважин</p>
-              <p class="text10">Создание План-графика движения бригад, хранение электронных план-заказов и планов работ, встроенная система электронного документооборота с гибкой настраиваемой моделью бизнес-процессов компании</p>
-            </div>
-
-          </div>
-        </div>      
-      
-<div class="block__73694">
-        <div class="container">
-          <div class="row d-flex no-gutters align-items-stretch">
-            <div class="col-12 col-lg-4 block5 img-fluid" style="background-image: url('/images/image 69.png');">
-            </div>
-            <div class="col-lg-5 block2">
-              <h2 class="mb-3 text8 text-black">Планирование</h2>
-              <p class=" text9">Формирование геолого-технологических мероприятий в части текущего и капитального ремонтов скважин</p>
-              <p class="text10">Создание План-графика движения бригад, хранение электронных план-заказов и планов работ, встроенная система электронного документооборота с гибкой настраиваемой моделью бизнес-процессов компании</p>
-            </div>
-          </div>
-        </div>      
-      </div>
-    </div>
-    <div class="site-section">
-      <div class="block__73694">
-        <div class="container">
-          <div class="row ">
-            <div class="col-12 col-lg-4 block8 img-fluid" style="background-image: url('/images/image 72.png');">
-            </div>
-            <div class="col-lg-7 mb-5 block2  ">
-              <h2 class="mb-3 text8 text-black">Планирование</h2>
-              <p class=" text9">Формирование геолого-технологических мероприятий в части текущего и капитального ремонтов скважин</p>
-              <p class="text10">Создание План-графика движения бригад, хранение электронных план-заказов и планов работ, встроенная система электронного документооборота с гибкой настраиваемой моделью бизнес-процессов компании</p>
-            </div>
-
-          </div>
-        </div>     
-      </div>
-<div class="block__73694 mt-5">
-         <div class="container">
-          <div class="row d-flex no-gutters align-items-stretch">
-            <div class="col-12 col-lg-4 block5 img-fluid" style="background-image: url('/images/image 69.png');">
-            </div>
-            <div class="col-lg-5 block2">
-              <h2 class="mb-3 text8 text-black">Планирование</h2>
-              <p class=" text9">Формирование геолого-технологических мероприятий в части текущего и капитального ремонтов скважин</p>
-              <p class="text10">Создание План-графика движения бригад, хранение электронных план-заказов и планов работ, встроенная система электронного документооборота с гибкой настраиваемой моделью бизнес-процессов компании</p>
-            </div>
-          </div>
-        </div>      
-    </div>
-<div class="block__73694">
-        <div class="container">
-          <div class="row ">
-            <div class="col-12 col-lg-4 block8 img-fluid" style="background-image: url('/images/image 72.png');">
-            </div>
-            <div class="col-lg-7 mb-5 block2  ">
-              <h2 class="mb-3 text8 text-black">Планирование</h2>
-              <p class=" text9">Формирование геолого-технологических мероприятий в части текущего и капитального ремонтов скважин</p>
-              <p class="text10">Создание План-графика движения бригад, хранение электронных план-заказов и планов работ, встроенная система электронного документооборота с гибкой настраиваемой моделью бизнес-процессов компании</p>
-            </div>
-
-          </div>
-        </div>     
-      </div>
-    </div>
