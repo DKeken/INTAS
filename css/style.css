@@ -389,11 +389,22 @@ border-radius: 2px;
 .navbar-nav {
     background-color: #66777E !important;
     overflow: hidden;
-}
 
+}
+.brandxs 
+{
+    position: absolute;
+    left: 45%;
+    margin-left: -50px !important; 
+   
+}
+.navbar-h{
+  height: 100vh;
+}
 .navbar{
   padding-left: 0px; 
   padding-right: 0px; 
+
 }
 .navbar-toggler,
 .navbar-toggler:hover,
@@ -763,9 +774,21 @@ letter-spacing: 0em;
 text-align: left;
 padding-top: 6px;
 }
+
+hr {
+ width: 400% !important;
+  margin-left: -5%;
+  
+}
+.row-full{
+  width: 99.7vw;
+}
+.jumbxshadow{
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25)
+}
 .headerpictext3{
   font-family: Gilroy;
-font-size: 9px;
+font-size: 11px;
 font-style: normal;
 font-weight: 400;
 line-height: 11px;
@@ -774,8 +797,8 @@ text-align: left;
 padding-top: 50px;
 }
 .headertext2{
-  font-family: Gilroy;
-font-size: 13px;
+  font-family: Gilroy-Bold;
+font-size: 14px;
 font-style: normal;
 font-weight: 600;
 line-height: 26px;
@@ -790,7 +813,7 @@ padding-left: 15px;
   border-left: 3px solid red;
   padding-left: 10px;
 font-family: Gilroy;
-font-size: 11px;
+font-size: 12px;
 font-style: normal;
 font-weight: 500;
 line-height: 15px;
@@ -922,6 +945,13 @@ text-align: left;
 @media (min-width: 768px) {  
  .block2{
   padding-top: 40px !important; 
+}
+.brandxs 
+{
+    position: absolute;
+    left: 47%;
+    margin-left: -50px !important; 
+   
 }
 .fourcardssize{
 border-radius: 2px;
