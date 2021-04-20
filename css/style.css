@@ -429,8 +429,12 @@ margin-bottom: 0px;
 .topnavbg{
   background-color: #66777E ;
 }
-.topnavh li.active {
+.topnavh a.active {
     background: #ffffff !important;
+}
+.nav-item.active  {
+  color: red !important;
+  text-decoration: none;
 }
 .headertext3xs{
     border-left: 3px solid red;
@@ -454,10 +458,7 @@ margin-bottom: 0px;
     padding-top: 0px;
     padding-left: 0px;
 }
-.nav-item.active a {
-  color: red !important;
-  text-decoration: none;
-}
+
 .collapsing{
   background-color: #66777E !important;
 }
@@ -480,7 +481,7 @@ color: #ffffff !important;
 
 .fourcardstext1{
 font-family: Gilroy;
-font-size: 12px;
+font-size: 14px;
 font-style: normal;
 font-weight: 600;
 line-height: 17px;
@@ -511,7 +512,7 @@ font-family: Gilroy;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 15px;
+line-height: 20px;
 letter-spacing: 0em;
 text-align: left;
 }
